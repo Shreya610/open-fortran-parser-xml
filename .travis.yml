@@ -27,7 +27,7 @@ matrix:
       sudo: true
       language: python
       python: "3.7"
-      env: TRAVIS_JDK_VERSION=oraclejdk10
+      env: TRAVIS_JDK_VERSION=openjdk11
     - os: osx
       osx_image: xcode9.2
       language: generic
